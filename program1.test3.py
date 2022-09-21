@@ -1,0 +1,22 @@
+s1=int(input("enter s1:"))
+s2=int(input("enter s2:"))
+s3=int(input("enter s3:"))
+s4=int(input("enter s4:"))
+s5=int(input("enter s5:"))
+avg=(s1+s2+s3+s4+s5)/5
+if(avg>=90 and avg<100):
+    print("grade=A3")
+elif(avg>=80 and avg<90):
+        print("grade=A2")
+elif(avg>=70 and avg<80):
+              print("grade=B1")
+elif(avg>=60 and avg<70):
+                  print("grad=B2")
+elif(avg>=50 and avg<60):
+                      print("grade=C1")
+elif(avg>=40 and avg<50):
+                          print("grade=C2")
+elif(avg>=33 and avg<40):
+                              print("grade=D")
+else:
+                                  print("grade=E")
